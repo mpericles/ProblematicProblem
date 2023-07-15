@@ -63,7 +63,17 @@ namespace ProblematicProblem
                 //}
                 if (seeList)
                 {
-                   
+                    //if (userAge < 21 && activity == "Wine Tasting")
+                    //{
+                    //    //string randomNumber1 = rng.Next(activities.Count);
+                    //    //string randomActivity = activities[randomNumber];
+                    //    //Console.WriteLine($"Oh no! Looks like you are too young to do {randomActivity}");
+                    //    //Console.WriteLine("Pick something else!");
+                    //    activities.Remove(activity);
+                    //    string NewActivity = "Non Alcoholic WineTasting";
+                    //    activities.Add(NewActivity);
+                    //}
+
                     foreach (string activity in activities)
                     {
                         //if (userAge < 21 && activity == "Wine Tasting")
@@ -134,7 +144,7 @@ namespace ProblematicProblem
                     //int randomNumber = rng.Next(activities.Count);
                     string randomActivity = activities[randomNumber];
 
-                    if (userAge < 21 && randomActivity == "Wine  Tasting")
+                    if (userAge < 21 && randomActivity == "Wine Tasting")
                     {
                         //string randomNumber1 = rng.Next(activities.Count);
                         //string randomActivity = activities[randomNumber];
